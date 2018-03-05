@@ -1,0 +1,61 @@
+/*
+Container
+maximum width
+center on the page
+*/
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    background: rgba(183,28,28 ,1);
+}
+/*
+Columns
+*/
+.col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
+    float:left;
+    width:25%;
+}
+
+
+/*
+Card
+during debug -> fixed height
+*/
+.card{
+    height: 236px;
+    box-sizing: border-box;
+    background: gray;
+    border: 3px solid lightgray;
+    border-radius: 10%;
+}
+.card-img >img{
+    object-fit: cover;
+    width: 100%;
+    height: 118px;
+    border-radius: 30%;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2 {
+    color: white;
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    color:white;
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3 {
+    color:white;
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    color:white;
+    margin-left: 75px; 
+}
